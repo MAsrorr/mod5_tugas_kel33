@@ -134,7 +134,7 @@ export default function Game() {
     ];
 
     const navigateToDetailPage = (item) => {
-        navigate(`/movie/detail/${item.id}`, { state: { Data: item } });
+        navigate(`/game/detail/${item.id}`, { state: { Data: item } });
     };
 
     return (

@@ -108,7 +108,7 @@ export default function Book() {
     ];
 
     const navigateToDetailPage = (item) => {
-        navigate(`/movie/detail/${item.id}`, { state: { Data: item } });
+        navigate(`/book/detail/${item.id}`, { state: { Data: item } });
     };
 
     return (

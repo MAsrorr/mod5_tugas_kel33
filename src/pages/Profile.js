@@ -14,7 +14,6 @@ export default function Profile() {
                 title={member.name}
                 genre={member.nim}
                 img={member.img}
-                r
             />
             {anggota.length === index + 1 && <div style={{ marginBottom: 80 }} />}
             </Fragment>
